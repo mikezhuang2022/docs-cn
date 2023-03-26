@@ -424,7 +424,7 @@ C -->|Two| E[Result 2]
 
 了解更多：[Demo](https://sli.dev/demo/starter/9) | [Mermaid](https://mermaid-js.github.io/mermaid)
 
-## 多个入口点 {#multiple-entries}
+## 多文件 {#multiple-entries}
 
 > 自 v0.15 开始可用
 
@@ -455,7 +455,7 @@ This page is from another file
 
 ### 合并 Frontmatter {#frontmatter-merging}
 
-你可以为主入口点和外部 markdown 页面提供 frontmatter。如果其中有相同的 key，**主入口点的 key 拥有更高的优先级**。例如：
+你可以为主文件和外部 markdown 页面提供 frontmatter。如果其中有相同的 key，**主入口点的 key 拥有更高的优先级**。例如：
 
 `slides.md` :
 
